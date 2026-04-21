@@ -1,0 +1,13 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+
+# Video + facial-landmark extraction (Step 1)
+opencv-python>=4.8
+mediapipe>=0.10.9
+
+# Forecasting (Step 4)
+scikit-learn>=1.3
+
+# Notebooks (optional — only if you want to re-run notebooks/)
+jupyter>=1.0

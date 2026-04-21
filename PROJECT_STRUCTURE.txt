@@ -1,0 +1,33 @@
+chewing_score_model/
+│
+├── chewing_health_model.py       # Core pipeline: video → landmarks → bites → risk score
+├── dashboard.py                  # Streamlit web app (run with: streamlit run dashboard.py)
+├── requirements.txt              # Python dependencies
+├── README.md                     # Setup, usage, and methodology
+├── PROJECT_STRUCTURE.txt         # This file
+│
+├── models/
+│   └── face_landmarker.task      # MediaPipe Face Landmarker model weights (3.6 MB)
+│
+├── data/
+│   ├── chewing_analysis_IMG_0085.csv           # Bite features extracted from test video
+│   └── chewing_analysis_Recording_Dessert.csv  # Bite features from dessert recording
+│
+├── examples/
+│   ├── sample_chewing_analysis.csv   # Sample per-bite features (input to scorer)
+│   ├── sample_health_report.json     # Sample JSON output from the full pipeline
+│   └── sample_health_report.txt      # Human-readable version of the same report
+│
+├── notebooks/
+│   └── 02_integrated_pipeline.ipynb  # Full pipeline walkthrough (Steps 1–4)
+│
+└── docs/
+    ├── scoring_rubric.md             # Risk scoring thresholds and literature citations
+    └── Food_Menu.pdf                 # Original assignment rubric (Group 14, INDENG 243)
+
+
+NOT tracked by git (see .gitignore):
+  videos/          — raw .mov/.mp4 files (too large for git)
+  outputs/         — auto-generated CSVs and reports per run
+  __pycache__/     — Python bytecode cache
+  .DS_Store        — macOS metadata
