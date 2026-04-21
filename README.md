@@ -29,7 +29,7 @@ chewing_score_model/
 ├── dashboard.py                 # Streamlit web app
 ├── models/
 │   └── face_landmarker.task     # MediaPipe Face Landmarker weights
-├── data/                        # pre-extracted bite feature CSVs
+├── sample_data/                 # pre-extracted bite feature CSVs
 ├── examples/
 │   ├── sample_chewing_analysis.csv
 │   ├── sample_health_report.json
