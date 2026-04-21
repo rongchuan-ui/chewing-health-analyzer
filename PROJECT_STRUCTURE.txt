@@ -9,7 +9,7 @@ chewing_score_model/
 ├── models/
 │   └── face_landmarker.task      # MediaPipe Face Landmarker model weights (3.6 MB)
 │
-├── data/
+├── sample_data/
 │   ├── chewing_analysis_IMG_0085.csv           # Bite features extracted from test video
 │   └── chewing_analysis_Recording_Dessert.csv  # Bite features from dessert recording
 │
