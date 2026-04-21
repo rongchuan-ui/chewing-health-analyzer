@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "n_bites": 211,
+    "mean_chews_per_bite": 1.0,
+    "median_chews_per_bite": 1.0,
+    "mean_chewing_frequency_hz": 2.814,
+    "mean_bite_duration_sec": 1.69,
+    "dominant_side": "left",
+    "dominant_side_share": 0.78
+  },
+  "per_feature": [
+    {
+      "feature": "chew_count_per_bite",
+      "value": 1.0,
+      "points": 3,
+      "max_points": 3,
+      "category": "Metabolic/Obesity",
+      "reason": "<20 chews/bite \u2192 high metabolic risk (lower satiety, lower GLP-1/CCK)",
+      "citation": "Scopus 80052004010; Scopus 84879177234; Scopus 84924968547"
+    },
+    {
+      "feature": "chewing_frequency_hz",
+      "value": 2.814,
+      "points": 3,
+      "max_points": 3,
+      "category": "Metabolic/Obesity",
+      "reason": "2.81 Hz chew rate \u2192 fast eating (OR of obesity \u2248 2.15)",
+      "citation": "nature.com ijo201596"
+    },
+    {
+      "feature": "chew_side_asymmetry",
+      "value": 0.78,
+      "points": 1,
+      "max_points": 2,
+      "category": "Oral/TMJ",
+      "reason": "left side used 78% of bites \u2192 moderate asymmetry",
+      "citation": "masticatory-laterality literature"
+    },
+    {
+      "feature": "bite_duration_sec",
+      "value": 1.69,
+      "points": 2,
+      "max_points": 2,
+      "category": "Behavioural",
+      "reason": "mean bite 1.7s \u2192 very short (rushed eating)",
+      "citation": "eating-rate / satiety literature"
+    }
+  ],
+  "per_category": {
+    "Metabolic/Obesity": {
+      "points": 6,
+      "max": 6,
+      "pct": 100.0
+    },
+    "Oral/TMJ": {
+      "points": 1,
+      "max": 2,
+      "pct": 50.0
+    },
+    "Behavioural": {
+      "points": 2,
+      "max": 2,
+      "pct": 100.0
+    }
+  },
+  "overall_risk_pct": 90.0,
+  "risk_level": "HIGH",
+  "flags": [
+    "chew_count_per_bite",
+    "chewing_frequency_hz",
+    "bite_duration_sec"
+  ]
+}

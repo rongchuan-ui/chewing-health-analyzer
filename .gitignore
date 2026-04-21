@@ -1,0 +1,37 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---------- Virtual envs ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- OS / editors ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------- Pipeline outputs ----------
+outputs/
+annotated.mp4
+
+# Large intermediate CSVs (face_landmarks.csv can be 1 GB+)
+face_landmarks.csv
+*_face_landmarks.csv
+
+# Keep the short example ones in examples/ — those are tracked.
+
+# ---------- User videos ----------
+*.mov
+*.mp4
+*.avi
+*.mkv
+!examples/**/*.mp4

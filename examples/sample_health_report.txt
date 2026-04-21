@@ -1,0 +1,33 @@
+====================================================================
+  CHEWING BEHAVIOUR — HEALTH-RISK REPORT
+====================================================================
+  Bites detected           : 211
+  Mean chews / bite        : 1.0
+  Median chews / bite      : 1.0
+  Mean chew frequency (Hz) : 2.814
+  Mean bite duration (s)   : 1.69
+  Dominant chew side       : left (78%)
+--------------------------------------------------------------------
+  Per-feature scoring  (pts / max  —  0 = healthy, higher = riskier)
+--------------------------------------------------------------------
+  [Metabolic/Obesity ] chew_count_per_bite        3/3  value=1.0
+      ↳ <20 chews/bite → high metabolic risk (lower satiety, lower GLP-1/CCK)
+      ↳ citation: Scopus 80052004010; Scopus 84879177234; Scopus 84924968547
+  [Metabolic/Obesity ] chewing_frequency_hz       3/3  value=2.814
+      ↳ 2.81 Hz chew rate → fast eating (OR of obesity ≈ 2.15)
+      ↳ citation: nature.com ijo201596
+  [Oral/TMJ          ] chew_side_asymmetry        1/2  value=0.78
+      ↳ left side used 78% of bites → moderate asymmetry
+      ↳ citation: masticatory-laterality literature
+  [Behavioural       ] bite_duration_sec          2/2  value=1.69
+      ↳ mean bite 1.7s → very short (rushed eating)
+      ↳ citation: eating-rate / satiety literature
+--------------------------------------------------------------------
+  Per-category risk (Σ points / max × 100)
+    Metabolic/Obesity    6/6  → 100.0 %
+    Oral/TMJ             1/2  → 50.0 %
+    Behavioural          2/2  → 100.0 %
+--------------------------------------------------------------------
+  OVERALL RISK SCORE : 90.0 %  →  HIGH
+  FLAGS              : chew_count_per_bite, chewing_frequency_hz, bite_duration_sec
+====================================================================
