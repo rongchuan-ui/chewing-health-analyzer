@@ -6,6 +6,10 @@ pandas>=2.0
 opencv-python>=4.8
 mediapipe>=0.10.9
 
+# Dashboard (Step 5)
+streamlit>=1.35
+plotly>=5.20
+
 # Forecasting (Step 4)
 scikit-learn>=1.3
 
