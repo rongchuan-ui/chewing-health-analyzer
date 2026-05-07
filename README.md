@@ -120,4 +120,4 @@ Per-category score = Σ points / max × 100. Bucketed into **LOW / MODERATE / HI
 
 ## Authors
 
-Group 14 — Module 2 Presentation, Spring 2026
+Rongchuan Shi
