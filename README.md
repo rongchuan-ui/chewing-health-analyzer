@@ -1,6 +1,6 @@
 # chewing_score_model
 
-**Chewing Behavior Analytics — Model Design & Evaluation** · Module 2, Group 14
+**Chewing Behavior Analytics — Model Design & Evaluation**
 
 A reproducible pipeline that takes a short **eating video** and returns a
 **literature-grounded health-risk score** for the person's chewing behaviour,
